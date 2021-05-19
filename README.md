@@ -57,7 +57,7 @@ To get a local copy up and running follow these simple example steps.
 ## Usage
 ### Backend Setup
 
-* ```bash
+```bash
 npm install
 npm run start
 ngrok http 3000
