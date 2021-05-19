@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Minly Task</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="no_images">No Images, Try to upload one</string>
+</resources>
