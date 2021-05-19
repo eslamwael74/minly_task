@@ -88,7 +88,9 @@ class _HomeScreenState extends State<HomeScreen> {
 
   ///Open file picker and upload new image
   _onAddPhotoClicked(context) async {
-    FilePickerResult result = await FilePicker.platform.pickFiles();
+    FilePickerResult result = await FilePicker.platform.pickFiles(
+      type: FileType.image
+    );
 
     if (result != null) {
       File file = File(result.files.single.path);
